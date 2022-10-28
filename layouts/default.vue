@@ -6,7 +6,7 @@
           <a href="#!">Logo</a>
         </div>
         <nav>
-          <div class="nav-mobile" @click="isHidden = !isHidden">
+          <div class="nav-mobile" @click=" open = !open">
           <!-- Toggle Hamburger between default and X on click (mobile only) -->
             <a
               id="nav-toggle" href="#!"
@@ -16,7 +16,8 @@
             </a>
           </div>
 
-          <ul v-show="isHidden" class="nav-list">
+          <VueSlideToggle id="overflow-fix" :open="open" tag="section" :duration="300">
+          <ul class="nav-list" :class="{ block: open }">
 
             <li>
               <a href="#!">Home</a>
@@ -70,6 +71,7 @@
               <a href="#!">RSVP</a>
             </li>
           </ul>
+          </VueSlideToggle>
         </nav>
       </div>
     </section>
@@ -78,14 +80,20 @@
 </template>
 
 <script>
+import { VueSlideToggle } from 'vue-slide-toggle'
+
 export default {
+  components: {
+    VueSlideToggle
+  },
+
   data() {
     return {
       // Set the state of the hamburger menu on page load.
       toggleHamburger: false,
-      isHidden: false,
       // declare active dropdown but give it no value so it can be reassigned later.
       activeDropdown: null,
+      open: false,
     }
   },
   methods: {

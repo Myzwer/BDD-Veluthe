@@ -15505,6 +15505,7 @@ __metadata:
     vue: ^2.7.10
     vue-jest: ^3.0.4
     vue-server-renderer: ^2.7.10
+    vue-slide-toggle: ^1.1.1
     vue-template-compiler: ^2.7.10
   languageName: unknown
   linkType: soft
@@ -15634,6 +15635,13 @@ __metadata:
     serialize-javascript: ^6.0.0
     source-map: 0.5.6
   checksum: 32b25897d34369b4aade71c9b5942724ced0967b220b42dc7917aa1f4123cb5c0613a4fdfa73eac3691a5098170462700aa817c2903f064b84e11ca1b5bc0fc6
+  languageName: node
+  linkType: hard
+
+"vue-slide-toggle@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "vue-slide-toggle@npm:1.1.1"
+  checksum: d076e52e495faccac5e69aa605e9bbbc9bb09e88d425f175d677c132389df4abc5678be890b5b9d7dbbc8e5ff62c9c430bd5da850be0a376c4c92f4b95ebc696
   languageName: node
   linkType: hard
 

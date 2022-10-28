@@ -141,7 +141,7 @@ nav {
     z-index: 10;
     ul {
       // Removed this to let Vue handle it
-      // display: none;
+      display: none;
       li {
         float: none;
         a {
@@ -268,3 +268,10 @@ nav {
 }
 
 
+// This HAD to be added to fix the Vue Slide Toggle component on desktop
+// https://github.com/dimensi/vue-slide-toggle
+@media screen and (min-width: 1000px) {
+  #overflow-fix {
+    overflow: visible !important;
+  }
+}

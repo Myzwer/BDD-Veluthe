@@ -92,3 +92,4 @@ sw.*
 # Yarn's Nonsense
 .yarn/unplugged
 .yarn/cache
+.yarn/install-state.gz

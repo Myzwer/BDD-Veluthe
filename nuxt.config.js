@@ -21,6 +21,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // SCSS file in the project
+    '~/assets/sass/gradients.scss',
+    '~/assets/sass/navbar.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -39,19 +42,19 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     // Simple usage
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: '/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

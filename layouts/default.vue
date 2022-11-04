@@ -24,8 +24,15 @@
             </li>
 
             <li>
-              <a href="#!" @click="toggleActiveDropdown('party')">Bridal Party</a>
-              <ul v-show="activeDropdown === 'party'" class="nav-dropdown">
+              <a ref="nav-click" href="#!" @click="toggleActiveDropdown('party')">Bridal Party</a>
+              <ul
+                v-show="activeDropdown === 'party'"
+                v-closable="{
+                exclude: ['nav-click'],
+                handler: 'dropdown'
+                }"
+                  class="nav-dropdown"
+              >
                 <li>
                   <a href="#!">Meet the Couple</a>
                 </li>
@@ -45,8 +52,14 @@
             </li>
 
             <li>
-              <a href="#!" @click="toggleActiveDropdown('event')">Event</a>
-              <ul v-show="activeDropdown === 'event'" class="nav-dropdown">
+              <a ref="nav-click-2" href="#!" @click="toggleActiveDropdown('event')">Event</a>
+              <ul
+                v-show="activeDropdown === 'event'"
+                  v-closable="{
+                exclude: ['nav-click-2'],
+                handler: 'dropdown'
+                }"
+                  class="nav-dropdown">
                 <li>
                   <a href="#!">Venue Details</a>
                 </li>

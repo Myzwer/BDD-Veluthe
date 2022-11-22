@@ -267,6 +267,12 @@ nav {
   }
 }
 
+// This fixes an issue where the block of code above compresses the last line of the dropdown menus.
+// Basically the button code breaks the last line of the dropdown. This fixes that.
+nav .nav-dropdown a:last-of-type {
+  line-height: normal;
+}
+
 
 // This HAD to be added to fix the Vue Slide Toggle component on desktop
 // https://github.com/dimensi/vue-slide-toggle

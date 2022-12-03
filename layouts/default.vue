@@ -20,7 +20,7 @@
             <ul class="nav-list" :class="{ block: open }">
 
               <li>
-                <a href="#!">Home</a>
+                <NuxtLink to="/">Home</NuxtLink>
               </li>
 
               <li>
@@ -34,7 +34,7 @@
                   class="nav-dropdown"
                 >
                   <li>
-                    <a href="#!">Meet the Couple</a>
+                    <NuxtLink to="/meetCouple">Meet the Couple</NuxtLink>
                   </li>
                   <li>
                     <a href="#!">Meet The Bride</a>

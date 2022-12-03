@@ -27,3 +27,10 @@ https://reactgo.com/nuxt-set-background-image/
 Google fonts:<br>
 https://google-fonts.nuxtjs.org/ <br>
 (there's also some documentation in fonts.scss)
+
+Slide Toggle: <br>
+(mobile nav menu slide down) <br>
+https://github.com/dimensi/vue-slide-toggle
+
+Click outside Navmenu: <br>
+https://medium.com/@Taha_Shashtari/an-easy-way-to-detect-clicks-outside-an-element-in-vue-1b51d43ff634

@@ -28,6 +28,7 @@ export default {
     // SCSS file in the project
     '~/assets/sass/gradients.scss',
     '~/assets/sass/navbar.scss',
+    '~/assets/sass/background.scss',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 

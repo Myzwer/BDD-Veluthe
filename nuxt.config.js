@@ -29,6 +29,7 @@ export default {
     '~/assets/sass/gradients.scss',
     '~/assets/sass/navbar.scss',
     '~/assets/sass/background.scss',
+    '~/assets/sass/fonts.scss',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
@@ -50,8 +51,16 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     // Simple usage
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    families: {
+      'Alex+Brush': true,
+      Montserrat: [400, 700, 900]
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

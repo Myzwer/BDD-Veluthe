@@ -15,20 +15,20 @@
 				<h1 class="body-font text-3xl uppercase">November 18th, 2023</h1>
 
 				<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
-					<div class="col-span-12 md:col-span-3">
+					<div class="col-span-6 md:col-span-3">
 						<p class="font-bold text-6xl body-font">{{ daysRemaining[0] }}</p>
 						<p class="font-bold text-2xl "> Days</p>
 					</div>
 
-					<div class="col-span-12 md:col-span-3">
+					<div class="col-span-6 md:col-span-3">
 						<p class="font-bold text-6xl body-font">{{ daysRemaining[1] }}</p>
 						<p class="font-bold text-2xl "> Hours</p>
 					</div>
-					<div class="col-span-12 md:col-span-3">
+					<div class="col-span-6 md:col-span-3">
 						<p class="font-bold text-6xl body-font">{{ daysRemaining[2] }}</p>
 						<p class="font-bold text-2xl "> Minutes</p>
 					</div>
-					<div class="col-span-12 md:col-span-3">
+					<div class="col-span-6 md:col-span-3">
 						<p class="font-bold text-6xl body-font">{{ daysRemaining[3] }}</p>
 						<p class="font-bold text-2xl "> Seconds</p>
 					</div>
@@ -42,6 +42,51 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="bg-secondary-alt">
+			<div class="text-center mx-auto max-w-2xl md:max-w-5xl">
+				<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
+					<div class="col-span-12 md:col-span-6 px-5">
+						<div class="text-center mx-auto max-w-sm md:max-w-xs px-5">
+							<img class = "rounded-xl shadow-lg" src="/images/index/josh-headshot.jpg" alt="">
+						</div>
+
+						<div class="mb-10">
+						<h2 class = "pt-7 text-5xl text-white">About Josh</h2>
+						<p class = "text-white text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed nulla id id varius....</p>
+						</div>
+
+						<div class="text-center mb-10">
+							<a href="#"
+							   class="text-white uppercase rounded-md font-bold border-white border-2 text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								Read More
+							</a>
+						</div>
+					</div>
+
+					<div class="col-span-12 md:col-span-6 px-5">
+						<div class="text-center mx-auto max-w-sm md:max-w-xs px-5">
+							<img class = "rounded-xl shadow-lg" src="/images/index/katie-headshot.jpg" alt="">
+						</div>
+
+						<div class="mb-10">
+							<h2 class = "pt-7 text-5xl text-white">About Katie</h2>
+							<p class = "text-white text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed nulla id id varius....</p>
+						</div>
+
+						<div class="text-center mb-10">
+							<a href="#"
+							   class="text-white uppercase rounded-md font-bold border-white border-2 text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								Read More
+							</a>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
 	</div>
 </template>
 

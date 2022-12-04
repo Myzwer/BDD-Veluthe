@@ -34,3 +34,6 @@ https://github.com/dimensi/vue-slide-toggle
 
 Click outside Navmenu: <br>
 https://medium.com/@Taha_Shashtari/an-easy-way-to-detect-clicks-outside-an-element-in-vue-1b51d43ff634
+
+Countdown: <br>
+https://www.w3schools.com/howto/howto_js_countdown.asp

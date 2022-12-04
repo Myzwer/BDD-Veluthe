@@ -16,20 +16,20 @@
 
 				<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
 					<div class="col-span-6 md:col-span-3">
-						<p class="font-bold text-6xl body-font">{{ daysRemaining[0] }}</p>
+						<p class="font-bold text-6xl body-font">{{ days }}</p>
 						<p class="font-bold text-2xl "> Days</p>
 					</div>
 
 					<div class="col-span-6 md:col-span-3">
-						<p class="font-bold text-6xl body-font">{{ daysRemaining[1] }}</p>
+						<p class="font-bold text-6xl body-font">{{ hours }}</p>
 						<p class="font-bold text-2xl "> Hours</p>
 					</div>
 					<div class="col-span-6 md:col-span-3">
-						<p class="font-bold text-6xl body-font">{{ daysRemaining[2] }}</p>
+						<p class="font-bold text-6xl body-font">{{ minutes }}</p>
 						<p class="font-bold text-2xl "> Minutes</p>
 					</div>
 					<div class="col-span-6 md:col-span-3">
-						<p class="font-bold text-6xl body-font">{{ daysRemaining[3] }}</p>
+						<p class="font-bold text-6xl body-font">{{ seconds }}</p>
 						<p class="font-bold text-2xl "> Seconds</p>
 					</div>
 
@@ -91,22 +91,40 @@
 </template>
 
 <script>
-
 export default {
 	name: 'IndexPage',
-	computed: {
-		daysRemaining() {
-			const weddingDate = new Date("Nov 18, 2023 17:00:00").getTime();
-			const now = new Date().getTime();
-			const distance = weddingDate - now;
-
-			const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-			return [days, hours, minutes, seconds];
+	data() {
+		return {
+			days: 0,
+			hours: 0,
+			minutes: 0,
+			seconds: 0,
 		}
+	},
+	methods: {
+		daysRemaining() {
+			const weddingDate = new Date('Nov 18, 2023 17:00:00').getTime()
+			const now = new Date().getTime()
+			const distance = weddingDate - now
+
+			const days = Math.floor(distance / (1000 * 60 * 60 * 24))
+			const hours = Math.floor(
+				(distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+			)
+			const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+			const seconds = Math.floor((distance % (1000 * 60)) / 1000)
+
+			return [days, hours, minutes, seconds]
+		},
+	},
+	mounted() {
+		setInterval(() => {
+			const [days, hours, minutes, seconds] = this.daysRemaining()
+			this.days = days
+			this.hours = hours
+			this.minutes = minutes
+			this.seconds = seconds
+		}, 1000)
 	},
 }
 </script>

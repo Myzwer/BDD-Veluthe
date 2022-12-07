@@ -9,7 +9,7 @@
 			</div>
 		</div>
 
-		<div class="bg-secondary-alt">
+		<div class="bg-tertiary">
 			<div class="text-center mx-auto max-w-2xl md:max-w-5xl">
 				<div class="grid grid-cols-12 gap-4 pt-10 pb-12">
 					<div class="col-span-12 md:col-span-5 px-5">
@@ -19,8 +19,8 @@
 					</div>
 
 					<div class="col-span-12 md:col-span-7 px-5">
-						<h2 class="pt-7 text-5xl text-white text-left">Meet Josh + Katie</h2>
-						<p class="text-white text-left pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+						<h2 class="pt-7 text-5xl text-left">Meet Josh + Katie</h2>
+						<p class="text-left pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
 							ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum
 							sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed
 							tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies
@@ -28,7 +28,7 @@
 							varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis
 							eros ullamcorper eget. Curabitur ut malesuada urna.</p>
 
-						<p class="text-white text-left pb-5">Duis pharetra facilisis faucibus. Donec ultricies felis vel
+						<p class="text-left pb-5">Duis pharetra facilisis faucibus. Donec ultricies felis vel
 							malesuada interdum. Duis ut fermentum lacus. Etiam egestas neque in lorem scelerisque,
 							pulvinar sagittis erat porttitor. Nulla facilisi. Suspendisse potenti. Proin dapibus, justo
 							at vestibulum vehicula, turpis odio malesuada justo, in laoreet neque magna vitae lacus.
@@ -38,10 +38,11 @@
 							congue risus. Cras quis placerat tellus. Fusce sit amet tellus risus.</p>
 
 					</div>
-
 				</div>
 			</div>
 		</div>
+
+		<button-footer />
 	</div>
 </template>
 

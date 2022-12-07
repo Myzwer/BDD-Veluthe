@@ -37,16 +37,16 @@
                     <NuxtLink to="/meetCouple">Meet the Couple</NuxtLink>
                   </li>
                   <li>
-                    <a href="#!">Meet The Bride</a>
+					  <NuxtLink to="/MeetTheBride">Meet The Bride</NuxtLink>
                   </li>
                   <li>
-                    <a href="#!">Meet the Groom</a>
+					  <NuxtLink to="/MeetTheGroom">Meet the Groom</NuxtLink>
                   </li>
                   <li>
-                    <a href="#!">Meet the Bridesmaids</a>
+					  <NuxtLink to="/MeetTheBridesmaids">Meet the Bridesmaids</NuxtLink>
                   </li>
                   <li>
-                    <a href="#!">Meet the Groomsmen</a>
+					  <NuxtLink to="/MeetTheGroomsmen">Meet the Groomsmen</NuxtLink>
                   </li>
                 </ul>
               </li>

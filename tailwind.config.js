@@ -47,6 +47,9 @@ module.exports = {
         DEFAULT: "#b9a9a7",
         alt: "#f5e0db",
       },
+      accent :{
+        DEFAULT: "#686aa8",
+      },
     },
   },
   plugins: [],

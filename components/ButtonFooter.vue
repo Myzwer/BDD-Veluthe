@@ -12,7 +12,7 @@
 						<div class="text-center">
 							<NuxtLink
 								to="/meetCouple"
-								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl">
 								Meet The Couple
 							</NuxtLink>
 						</div>
@@ -22,7 +22,7 @@
 						<div class="text-center">
 							<NuxtLink
 								to="/meetTheGroom"
-								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl">
 								Meet The Groom
 							</NuxtLink>
 						</div>
@@ -32,7 +32,7 @@
 						<div class="text-center">
 							<NuxtLink
 								to="/meetTheGroomsmen"
-								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl">
 								Meet The Groomsmen
 							</NuxtLink>
 						</div>
@@ -42,7 +42,7 @@
 						<div class="text-center">
 							<NuxtLink
 								to="/meetTheBride"
-								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl">
 								Meet The Bride
 							</NuxtLink>
 						</div>
@@ -52,7 +52,7 @@
 						<div class="text-center">
 							<NuxtLink
 								to="/meetTheBridesmaids"
-								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10">
+								class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl">
 								Meet The Bridesmaids
 							</NuxtLink>
 						</div>

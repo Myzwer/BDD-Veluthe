@@ -49,6 +49,7 @@ module.exports = {
       },
       accent :{
         DEFAULT: "#686aa8",
+        alt: "#5052b6",
       },
     },
   },

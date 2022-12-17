@@ -1,0 +1,40 @@
+{
+  "bios": [
+    {
+      "name": "Kelly Anderson",
+      "title": "Maid of Honor",
+      "description": "Pug ramps hammock truffaut tousled biodiesel post-ironic jean shorts vibecession meh. Pinterest fashion axe pabst actually, hell of sriracha JOMO tilde humblebrag selfies cronut salvia jianbing deep v. YOLO everyday carry cred man bun. JOMO health goth everyday carry subway tile biodiesel hell of. Pug flexitarian kitsch letterpress wolf intelligentsia narwhal kickstarter synth pop-up tattooed. Knausgaard banh mi pickled poutine sus, chia fixie. Fingerstache DSA kogi vexillologist Brooklyn truffaut bicycle rights viral, same air plant neutra waistcoat.",
+      "image": "/images/bridesmaids/b1.jpg",
+      "facebook": "https://facebook.com/",
+      "instagram": "https://www.instagram.com/?hl=en",
+      "twitter": null
+    },
+    {
+      "name": "Pam Watson",
+      "title": "Bridesmaid",
+      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "image": "/images/bridesmaids/b2.jpg",
+      "facebook": "https://facebook.com/",
+      "instagram": "https://www.instagram.com/?hl=en",
+      "twitter": "https://twitter.com/?lang=en"
+    },
+    {
+      "name": "Liz Tucker",
+      "title": "Bridesmaid",
+      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "image": "/images/bridesmaids/b3.jpg",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/?hl=en",
+      "twitter": null
+    },
+    {
+      "name": "Angela Brown",
+      "title": "Bridesmaid",
+      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "image": "/images/bridesmaids/b4.jpg",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    }
+  ]
+}

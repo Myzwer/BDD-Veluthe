@@ -65,12 +65,39 @@
                 </div>
             </div>
         </div>
+
+        <div class="bg-secondary">
+            <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
+                <div class="grid grid-cols-12 gap-4 pt-10 pb-12 text-white">
+                    <div class="col-span-12 text-left">
+                        <h2 class="text-5xl">Lodging Options</h2>
+                    </div>
+
+                    <HotelLocations
+                        v-for="hotel in hotels"
+                        :key="hotel.name"
+                        :name="hotel.name"
+                        :address-line1="hotel.addressLine1"
+                        :address-line2="hotel.addressLine2"
+                        :distance="hotel.distance"
+                        :link="hotel.link"
+                    />
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+import HotelLocations from '~/components/HotelLocations'
+import { hotels } from '~/data/hotels.json'
+
 export default {
     name: 'EventVenue',
+    components: { HotelLocations },
+    data() {
+        return { hotels }
+    },
 }
 </script>
 

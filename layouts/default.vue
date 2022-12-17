@@ -61,10 +61,7 @@
                   }"
                   class="nav-dropdown">
                   <li>
-                    <a href="#!">Venue Details</a>
-                  </li>
-                  <li>
-                    <a href="#!">Lodging</a>
+					  <NuxtLink to="/EventVenue">The Venue</NuxtLink>
                   </li>
                   <li>
                     <a href="#!">Schedule</a>

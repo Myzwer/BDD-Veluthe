@@ -14,7 +14,7 @@
         <div class="bg-tertiary">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
-                    <div class="col-span-12 md:col-span-6 px-5 text-left">
+                    <div class="col-span-12 md:col-span-5 px-5 text-left">
                         <h2 class="text-5xl">Address</h2>
                         <h3 class="text-xl font-bold uppercase body-font">
                             123 Wedding Ceremony Ln
@@ -46,8 +46,22 @@
                         </div>
                     </div>
 
-                    <div class="col-span-12 md:col-span-6 px-5 text-left">
-                        <h4>map</h4>
+                    <div class="col-span-12 md:col-span-7 px-5 text-left">
+                        <gmap-map
+                            ref="mmm"
+                            :center="center"
+                            :zoom="11"
+                            style="width: 100%; height: 300px"
+                        >
+                            <gmap-marker
+                                v-for="(m, index) in markers"
+                                :key="index"
+                                :position="m.position"
+                                :clickable="true"
+                                :draggable="true"
+                                @click="center = m.position"
+                            ></gmap-marker>
+                        </gmap-map>
                     </div>
                 </div>
 
@@ -92,11 +106,26 @@
 import HotelLocations from '~/components/HotelLocations'
 import { hotels } from '~/data/hotels.json'
 
+// eslint-disable-next-line no-console
 export default {
     name: 'EventVenue',
     components: { HotelLocations },
     data() {
-        return { hotels }
+        return {
+            hotels,
+            center: {
+                lat: 40.7484,
+                lng: -73.9857,
+            },
+            markers: [
+                {
+                    position: {
+                        lat: 40.7484,
+                        lng: -73.9857,
+                    },
+                },
+            ],
+        }
     },
 }
 </script>

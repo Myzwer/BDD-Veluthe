@@ -10320,6 +10320,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"marker-clusterer-plus@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "marker-clusterer-plus@npm:2.1.4"
+  checksum: f409bceea764310c35a1c589f9f21cc601d757ae5d5540ea7a67d25b7379c3af7dea585a2c4d34683070294b7cac95d4b88056b746a97d7f75de7510402ee005
+  languageName: node
+  linkType: hard
+
 "mathml-tag-names@npm:^2.1.3":
   version: 2.1.3
   resolution: "mathml-tag-names@npm:2.1.3"
@@ -15793,6 +15800,7 @@ __metadata:
     vue-server-renderer: ^2.7.10
     vue-slide-toggle: ^1.1.1
     vue-template-compiler: ^2.7.10
+    vue2-google-maps: ^0.10.7
   languageName: unknown
   linkType: soft
 
@@ -15955,6 +15963,16 @@ __metadata:
   version: 1.9.1
   resolution: "vue-template-es2015-compiler@npm:1.9.1"
   checksum: ad1e85662783be3ee262c323b05d12e6a5036fca24f16dc0f7ab92736b675919cb4fa4b79b28753eac73119b709d1b36789bf60e8ae423f50c4db35de9370e8b
+  languageName: node
+  linkType: hard
+
+"vue2-google-maps@npm:^0.10.7":
+  version: 0.10.7
+  resolution: "vue2-google-maps@npm:0.10.7"
+  dependencies:
+    babel-runtime: ^6.26.0
+    marker-clusterer-plus: ^2.1.4
+  checksum: 69b6fd83069b4fbc6bab8139d93f3ff197c09a017fc81e8f8a6320a6afe92da3aa15555195cbc94a8e9a419f93cab0ed07d170d4a81a6e1f868edfa3b46e0b49
   languageName: node
   linkType: hard
 

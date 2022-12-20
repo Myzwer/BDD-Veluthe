@@ -26,7 +26,8 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-slide-toggle": "^1.1.1",
-    "vue-template-compiler": "^2.7.10"
+    "vue-template-compiler": "^2.7.10",
+    "vue2-google-maps": "^0.10.7"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",

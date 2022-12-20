@@ -56,6 +56,7 @@ export default {
         // Simple usage
         '@nuxtjs/vuetify',
         '@nuxtjs/google-fonts',
+        '@nuxtjs/dotenv',
     ],
 
     googleFonts: {

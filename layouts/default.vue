@@ -101,7 +101,7 @@
                             </li>
 
                             <li>
-                                <a href="#!">Contact</a>
+                                <NuxtLink to="/ContactUs">Contact</NuxtLink>
                             </li>
 
                             <li>
@@ -213,10 +213,10 @@
                                 <NuxtLink to="/">Home</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/">EventVenue</NuxtLink>
+                                <NuxtLink to="/EventVenue">Event</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <a href="#"></a>Contact
+                                <NuxtLink to="/ContactUs">EventVenue</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
                                 <a href="#"></a>Registry

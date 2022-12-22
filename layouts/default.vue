@@ -105,7 +105,9 @@
                             </li>
 
                             <li>
-                                <a href="#!">Registry</a>
+                                <NuxtLink to="/WeddingRegistry">
+                                    Registry
+                                </NuxtLink>
                             </li>
 
                             <li>
@@ -216,10 +218,12 @@
                                 <NuxtLink to="/EventVenue">Event</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/ContactUs">EventVenue</NuxtLink>
+                                <NuxtLink to="/ContactUs">Contact</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <a href="#"></a>Registry
+                                <NuxtLink to="/WeddingRegistry">
+                                    Registry
+                                </NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
                                 <a href="#"></a>RSVP

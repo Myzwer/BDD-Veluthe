@@ -35,7 +35,7 @@
 
 <script>
 import RegistryLinks from '~/components/RegistryLinks'
-import { registries } from '~/data/registries.json'
+import { registries } from '~/data/data.json'
 
 export default {
     name: 'WeddingRegistry',

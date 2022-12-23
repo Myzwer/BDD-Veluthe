@@ -104,7 +104,7 @@
 
 <script>
 import HotelLocations from '~/components/HotelLocations'
-import { hotels } from '~/data/hotels.json'
+import { hotels } from '~/data/data.json'
 
 // eslint-disable-next-line no-console
 export default {

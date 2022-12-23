@@ -45,29 +45,29 @@
                                     class="nav-dropdown"
                                 >
                                     <li>
-                                        <NuxtLink to="/meetCouple"
-                                            >Meet the Couple</NuxtLink
-                                        >
+                                        <NuxtLink to="/the-couple">
+                                            Meet the Couple
+                                        </NuxtLink>
                                     </li>
                                     <li>
-                                        <NuxtLink to="/MeetTheBride"
-                                            >Meet The Bride</NuxtLink
-                                        >
+                                        <NuxtLink to="/bride">
+                                            Meet The Bride
+                                        </NuxtLink>
                                     </li>
                                     <li>
-                                        <NuxtLink to="/MeetTheGroom"
-                                            >Meet the Groom</NuxtLink
-                                        >
+                                        <NuxtLink to="/groom">
+                                            Meet the Groom
+                                        </NuxtLink>
                                     </li>
                                     <li>
-                                        <NuxtLink to="/MeetTheBridesmaids"
-                                            >Meet the Bridesmaids</NuxtLink
-                                        >
+                                        <NuxtLink to="/bridesmaids">
+                                            Meet the Bridesmaids
+                                        </NuxtLink>
                                     </li>
                                     <li>
-                                        <NuxtLink to="/MeetTheGroomsmen"
-                                            >Meet the Groomsmen</NuxtLink
-                                        >
+                                        <NuxtLink to="/groomsmen">
+                                            Meet the Groomsmen
+                                        </NuxtLink>
                                     </li>
                                 </ul>
                             </li>
@@ -88,26 +88,24 @@
                                     class="nav-dropdown"
                                 >
                                     <li>
-                                        <NuxtLink to="/EventVenue"
-                                            >The Venue</NuxtLink
-                                        >
+                                        <NuxtLink to="/venue">
+                                            The Venue
+                                        </NuxtLink>
                                     </li>
                                     <li>
-                                        <NuxtLink to="/EventSchedule"
-                                            >Schedule</NuxtLink
-                                        >
+                                        <NuxtLink to="/schedule">
+                                            Schedule
+                                        </NuxtLink>
                                     </li>
                                 </ul>
                             </li>
 
                             <li>
-                                <NuxtLink to="/ContactUs">Contact</NuxtLink>
+                                <NuxtLink to="/contact"> Contact </NuxtLink>
                             </li>
 
                             <li>
-                                <NuxtLink to="/WeddingRegistry">
-                                    Registry
-                                </NuxtLink>
+                                <NuxtLink to="/registry"> Registry </NuxtLink>
                             </li>
 
                             <li>
@@ -215,15 +213,13 @@
                                 <NuxtLink to="/">Home</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/EventVenue">Event</NuxtLink>
+                                <NuxtLink to="/event">Event</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/ContactUs">Contact</NuxtLink>
+                                <NuxtLink to="/contact">Contact</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/WeddingRegistry">
-                                    Registry
-                                </NuxtLink>
+                                <NuxtLink to="/registery"> Registry </NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
                                 <a href="#"></a>RSVP

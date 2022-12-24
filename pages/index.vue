@@ -14,15 +14,13 @@
         <div class="bg-tertiary py-10">
             <div class="text-center mx-auto md:max-w-2xl">
                 <h2 class="body-font text-xl font-bold pb-1">Save The Date</h2>
-                <h1 class="body-font text-3xl uppercase">
-                    November 18th, 2023
-                </h1>
-
+                <h1 class="body-font text-3xl uppercase">{{ weddingDate }}</h1>
                 <CountdownToDate />
             </div>
             <div class="text-center mb-10">
                 <a
-                    href="#"
+                    :href="rsvpLink"
+                    target="_blank"
                     class="bg-primary text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10"
                 >
                     RSVP!
@@ -39,8 +37,8 @@
                         >
                             <img
                                 class="rounded-xl shadow-lg"
-                                src="/images/index/josh-headshot.jpg"
-                                alt=""
+                                :src="groomImage"
+                                alt="Groom Headshot"
                             />
                         </div>
 
@@ -68,8 +66,8 @@
                         >
                             <img
                                 class="rounded-xl shadow-lg"
-                                src="/images/index/katie-headshot.jpg"
-                                alt=""
+                                :src="brideImage"
+                                alt="Bride Headshot"
                             />
                         </div>
 
@@ -100,9 +98,20 @@
 
 <script>
 import CountdownToDate from '~/components/CountdownToDate'
+import { index, RSVP } from '~/data/data.json'
+
 export default {
     name: 'IndexPage',
     components: { CountdownToDate },
+
+    data() {
+        return {
+            weddingDate: index.date,
+            rsvpLink: RSVP.link,
+            groomImage: index.groomImage,
+            brideImage: index.brideImage,
+        }
+    },
 }
 </script>
 
@@ -110,7 +119,7 @@ export default {
 /* stylelint-disable color-function-notation */
 .index-h1-background {
     background: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%)),
-        url('~static/images/index/index-head-bg.jpg');
+        url('~static/images/index/index-head.jpg');
     height: 60vh;
     background-position: center center;
     background-repeat: no-repeat;

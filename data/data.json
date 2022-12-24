@@ -1,9 +1,17 @@
 {
-  "index": [
+  "index":
     {
-      "date": "November 13th, 2023"
-    }
-  ],
+      "date": "November 13th, 2023",
+      "groomImage": "/images/index/groom-headshot.jpg",
+      "brideImage": "/images/index/bride-headshot.jpg"
+    },
+  "RSVP": {
+    "link": "https://rsvpify.com/"
+  },
+  "groom": {
+    "Name": "Josh Thatcher",
+    "firstName": "Josh"
+  },
   "bridesmaids": [
     {
       "name": "Kelly Anderson",

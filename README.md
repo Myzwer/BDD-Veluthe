@@ -37,3 +37,11 @@ https://medium.com/@Taha_Shashtari/an-easy-way-to-detect-clicks-outside-an-eleme
 
 Countdown: <br>
 https://www.w3schools.com/howto/howto_js_countdown.asp
+
+
+## What to Update
+### All Page Titles
+### Swap all images 
+Keep image titles / names the same
+### The wedding date in data.json
+### The countdown timer date in CountdownToDate.vue

@@ -93,7 +93,7 @@ export default {
             firstName: groom.firstName,
             groomHeadshot: groom.groomHeadshot,
             bio1: groom.bio1,
-            bio2: groom.bio1,
+            bio2: groom.bio2,
             facebook: groom.facebook,
             instagram: groom.instagram,
             twitter: groom.twitter,

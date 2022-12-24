@@ -5,6 +5,9 @@
       "groomImage": "/images/index/groom-headshot.jpg",
       "brideImage": "/images/index/bride-headshot.jpg"
     },
+  "tagline": {
+    "hashtag": "#forresterfairytale"
+  },
   "RSVP": {
     "link": "https://rsvpify.com/"
   },

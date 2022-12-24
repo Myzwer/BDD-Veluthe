@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">Josh + Katie</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -98,7 +98,7 @@
 
 <script>
 import CountdownToDate from '~/components/CountdownToDate'
-import { index, RSVP, groom, bride } from '~/data/data.json'
+import { index, RSVP, groom, bride, tagline } from '~/data/data.json'
 
 export default {
     name: 'IndexPage',
@@ -107,6 +107,7 @@ export default {
     data() {
         return {
             weddingDate: index.date,
+            hashtag: tagline.hashtag,
             rsvpLink: RSVP.link,
             groomImage: index.groomImage,
             groomBio: groom.bio1,

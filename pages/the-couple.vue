@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">About Us</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -45,13 +45,14 @@
 </template>
 
 <script>
-import { bride, groom, couple } from '~/data/data.json'
+import { bride, groom, couple, tagline } from '~/data/data.json'
 
 export default {
     name: 'MeetCouple',
 
     data() {
         return {
+            hashtag: tagline.hashtag,
             brideName: bride.firstName,
             groomName: groom.firstName,
             couplePhoto: couple.couplePhoto,

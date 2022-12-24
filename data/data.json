@@ -9,8 +9,24 @@
     "link": "https://rsvpify.com/"
   },
   "groom": {
-    "Name": "Josh Thatcher",
-    "firstName": "Josh"
+    "name": "Josh Thatcher",
+    "firstName": "Josh",
+    "groomHeadshot": "/images/groom/josh-solo.jpg",
+    "bio1": "Josh is a web developer who created this website for his amazing clients! Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "facebook": "https://facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "twitter": "https://twitter.com/?lang=en"
+  },
+  "bride": {
+    "name": "Katie Arcanis",
+    "firstName": "Katie",
+    "groomHeadshot": "/images/bride/bride-solo.jpg",
+    "bio1": "Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "facebook": "https://facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "twitter": "https://twitter.com/?lang=en"
   },
   "bridesmaids": [
     {

@@ -43,10 +43,11 @@
                         </div>
 
                         <div class="mb-10">
-                            <h2 class="pt-7 text-5xl text-white">About Josh</h2>
+                            <h2 class="pt-7 text-5xl text-white">
+                                About {{ groomName }}
+                            </h2>
                             <p class="text-white text-left">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut sed nulla id id varius....
+                                {{ groomBio.substring(0, 100) + '...' }}
                             </p>
                         </div>
 
@@ -73,11 +74,10 @@
 
                         <div class="mb-10">
                             <h2 class="pt-7 text-5xl text-white">
-                                About Katie
+                                About {{ brideName }}
                             </h2>
                             <p class="text-white text-left">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Ut sed nulla id id varius....
+                                {{ brideBio.substring(0, 100) + '...' }}
                             </p>
                         </div>
 
@@ -98,7 +98,7 @@
 
 <script>
 import CountdownToDate from '~/components/CountdownToDate'
-import { index, RSVP } from '~/data/data.json'
+import { index, RSVP, groom, bride } from '~/data/data.json'
 
 export default {
     name: 'IndexPage',
@@ -109,7 +109,11 @@ export default {
             weddingDate: index.date,
             rsvpLink: RSVP.link,
             groomImage: index.groomImage,
+            groomBio: groom.bio1,
+            groomName: groom.firstName,
             brideImage: index.brideImage,
+            brideBio: bride.bio1,
+            brideName: bride.firstName,
         }
     },
 }

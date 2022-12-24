@@ -18,47 +18,25 @@
                         <div class="mt-10 px-5">
                             <img
                                 class="rounded-xl shadow-lg"
-                                src="/images/groom/josh-solo.jpg"
-                                alt=""
+                                :src="groomHeadshot"
+                                alt="Groom Headshot"
                             />
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-7 px-5">
-                        <h2 class="pt-7 text-5xl text-left">Hey! I'm Josh.</h2>
+                        <h2 class="pt-7 text-5xl text-left">
+                            Hey! I'm {{ firstName }}.
+                        </h2>
                         <p class="text-left pb-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Vivamus ac turpis ac magna tristique
-                            imperdiet. Fusce ut magna a sapien semper
-                            ullamcorper dictum sit amet libero. Nam fermentum
-                            vestibulum ipsum, vitae maximus nisl efficitur eu.
-                            Sed tincidunt augue ut cursus pulvinar. Morbi semper
-                            porta eros eget hendrerit. Etiam ultricies ligula in
-                            aliquet accumsan. Aenean imperdiet lectus ante,
-                            vitae porta augue accumsan ac. Nam varius vestibulum
-                            turpis id condimentum. Proin scelerisque molestie
-                            purus, porta sagittis eros ullamcorper eget.
-                            Curabitur ut malesuada urna.
+                            {{ bio1 }}
                         </p>
 
                         <p class="text-left pb-5">
-                            Duis pharetra facilisis faucibus. Donec ultricies
-                            felis vel malesuada interdum. Duis ut fermentum
-                            lacus. Etiam egestas neque in lorem scelerisque,
-                            pulvinar sagittis erat porttitor. Nulla facilisi.
-                            Suspendisse potenti. Proin dapibus, justo at
-                            vestibulum vehicula, turpis odio malesuada justo, in
-                            laoreet neque magna vitae lacus. Aenean sit amet
-                            lobortis diam. Fusce augue lectus, cursus quis massa
-                            ut, condimentum cursus nulla. Maecenas luctus ante
-                            ornare tortor dictum aliquet. Aliquam imperdiet
-                            libero nec purus pharetra, at pellentesque est
-                            sollicitudin. Vivamus at diam eu dolor molestie
-                            tempus. In eu congue risus. Cras quis placerat
-                            tellus. Fusce sit amet tellus risus.
+                            {{ bio2 }}
                         </p>
-                        <div class="pb-5">
-                            <a href="#">
+                        <div v-if="facebook != null" class="pb-5">
+                            <a :href="facebook" target="_blank">
                                 <div
                                     class="text-black border-2 border-black uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white"
                                 >
@@ -69,8 +47,8 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="pb-5">
-                            <a href="#">
+                        <div v-if="instagram != null" class="pb-5">
+                            <a :href="instagram" target="_blank">
                                 <div
                                     class="text-black border-2 border-black uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white"
                                 >
@@ -81,8 +59,8 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="pb-5">
-                            <a href="#">
+                        <div v-if="twitter != null" class="pb-5">
+                            <a :href="twitter" target="_blank">
                                 <div
                                     class="text-black border-2 border-black uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white"
                                 >
@@ -103,8 +81,23 @@
 </template>
 
 <script>
+import { groom } from '~/data/data.json'
+
 export default {
     name: 'MeetTheGroom',
+
+    data() {
+        return {
+            name: groom.name,
+            firstName: groom.firstName,
+            groomHeadshot: groom.groomHeadshot,
+            bio1: groom.bio1,
+            bio2: groom.bio1,
+            facebook: groom.facebook,
+            instagram: groom.instagram,
+            twitter: groom.twitter,
+        }
+    },
 }
 </script>
 
@@ -112,7 +105,7 @@ export default {
 /* stylelint-disable color-function-notation */
 .groom-h1-background {
     background: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 60%)),
-        url('~static/images/groom/josh-head.jpg');
+        url('~static/images/groom/groom-head.jpg');
     height: 60vh;
     background-position: top center;
     background-repeat: no-repeat;

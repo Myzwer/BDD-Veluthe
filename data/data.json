@@ -24,7 +24,7 @@
   "bride": {
     "name": "Kaitlyn Arcanis",
     "firstName": "Kaitlyn",
-    "groomHeadshot": "/images/bride/bride-solo.jpg",
+    "headshot": "/images/bride/bride-headshot.jpg",
     "bio1": "Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
     "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
     "facebook": "https://facebook.com/",

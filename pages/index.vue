@@ -3,7 +3,9 @@
         <div class="relative">
             <div class="index-h1-background">
                 <div class="content-middle text-white text-center">
-                    <h1 class="text-7xl mb-2 px-2">Josh + Katie</h1>
+                    <h1 class="text-7xl mb-2 px-2">
+                        {{ groomName }} + {{ brideName }}
+                    </h1>
                     <h2 class="text-xl font-bold uppercase body-font">
                         {{ hashtag }}
                     </h2>

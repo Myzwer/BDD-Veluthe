@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">Meet The Ladies</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -30,12 +30,15 @@
 
 <script>
 import SingleBio from '~/components/SingleBio'
-import { bridesmaids } from '~/data/data.json'
+import { bridesmaids, tagline } from '~/data/data.json'
 export default {
     name: 'MeetTheBridesmaids',
     components: { SingleBio },
     data() {
-        return { bridesmaids }
+        return {
+            bridesmaids,
+            hashtag: tagline.hashtag,
+        }
     },
 }
 </script>
@@ -44,7 +47,7 @@ export default {
 /* stylelint-disable color-function-notation */
 .bridesmaids-h1-background {
     background: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 60%)),
-        url('~static/images/bridesmaids/b-header.jpg');
+        url('~static/images/bridesmaids/bridesmaid-head.jpg');
     height: 60vh;
     background-position: top center;
     background-repeat: no-repeat;

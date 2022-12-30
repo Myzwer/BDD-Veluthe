@@ -2,9 +2,6 @@
     <div>
         <section class="navigation">
             <div class="nav-container">
-                <div class="brand">
-                    <a href="#!">Logo</a>
-                </div>
                 <nav>
                     <div class="nav-mobile" @click="open = !open">
                         <!-- Toggle Hamburger between default and X on click (mobile only) -->
@@ -109,7 +106,7 @@
                             </li>
 
                             <li>
-                                <a href="#!">RSVP</a>
+                                <a :href="rsvpLink">RSVP</a>
                             </li>
                         </ul>
                     </VueSlideToggle>
@@ -131,7 +128,7 @@
                                 class="pr-1"
                                 icon="fa-solid fa-envelope"
                             />
-                            josh@onefortyfivedesign.com
+                            {{ link }}
                         </p>
 
                         <p>
@@ -139,7 +136,7 @@
                                 class="pr-1"
                                 icon="fa-solid fa-phone"
                             />
-                            865-803-5453
+                            {{ phone }}
                         </p>
                     </div>
 
@@ -154,16 +151,16 @@
                                 class="pr-1"
                                 icon="fa-solid fa-location-dot"
                             />
-                            123 Wedding Ceremony Ln
+                            {{ ceremonyLine1 }}
                         </p>
-                        <p class="pl-6 pb-1 text-lg">Weddingville, TN 12345</p>
+                        <p class="pl-6 pb-1 text-lg">{{ ceremonyLine2 }}</p>
 
                         <p class="text-lg pb-1">
                             <font-awesome-icon
                                 class="pr-1"
                                 icon="fa-solid fa-calendar-days"
                             />
-                            December 25, 2023
+                            {{ date }}
                         </p>
 
                         <p class="text-lg pb-1">
@@ -171,7 +168,7 @@
                                 class="pr-1"
                                 icon="fa-solid fa-clock"
                             />
-                            6:30pm - 6:45pm
+                            {{ ceremonyTime }}
                         </p>
                     </div>
 
@@ -186,16 +183,16 @@
                                 class="pr-1"
                                 icon="fa-solid fa-location-dot"
                             />
-                            123 Reception Blvd
+                            {{ receptionLine1 }}
                         </p>
-                        <p class="pl-6 pb-1 text-lg">Partytown, USA 12345</p>
+                        <p class="pl-6 pb-1 text-lg">{{ receptionLine2 }}</p>
 
                         <p class="text-lg pb-1">
                             <font-awesome-icon
                                 class="pr-1"
                                 icon="fa-solid fa-calendar-days"
                             />
-                            December 25, 2023
+                            {{ date }}
                         </p>
 
                         <p class="text-lg pb-1">
@@ -203,7 +200,7 @@
                                 class="pr-1"
                                 icon="fa-solid fa-clock"
                             />
-                            7:00pm - 9:00pm
+                            {{ receptionTime }}
                         </p>
                     </div>
 
@@ -222,7 +219,7 @@
                                 <NuxtLink to="/registery"> Registry </NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <a href="#"></a>RSVP
+                                <a :href="rsvpLink"></a>RSVP
                             </li>
                         </ul>
                     </div>
@@ -234,6 +231,13 @@
 
 <script>
 import { VueSlideToggle } from 'vue-slide-toggle'
+import {
+    ceremonyAddress,
+    receptionAddress,
+    index,
+    contactPrimary,
+    RSVP,
+} from '~/data/data.json'
 
 export default {
     components: {
@@ -247,6 +251,16 @@ export default {
             // declare active dropdown but give it no value so it can be reassigned later.
             activeDropdown: null,
             open: false,
+            link: contactPrimary.link,
+            phone: contactPrimary.phone,
+            ceremonyLine1: ceremonyAddress.address2,
+            ceremonyLine2: ceremonyAddress.address3,
+            receptionLine1: receptionAddress.address2,
+            receptionLine2: receptionAddress.address3,
+            date: index.date,
+            ceremonyTime: '6:30pm - 6:45pm',
+            receptionTime: '7:00pm - 9:00pm',
+            rsvpLink: RSVP.link,
         }
     },
     methods: {

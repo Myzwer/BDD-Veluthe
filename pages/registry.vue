@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">Registry</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
 <script>
 import RegistryLinks from '~/components/RegistryLinks'
-import { registries } from '~/data/data.json'
+import { registries, tagline } from '~/data/data.json'
 
 export default {
     name: 'WeddingRegistry',
@@ -43,6 +43,7 @@ export default {
     data() {
         return {
             registries,
+            hashtag: tagline.hashtag,
         }
     },
 }

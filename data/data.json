@@ -148,6 +148,32 @@
       "link": "https://www.instagram.com/?hl=en"
     }
   ],
+  "schedules": [
+    {
+      "time": "5:00PM",
+      "event": "Guests to Arrive"
+    },
+    {
+      "time": "5:30PM",
+      "event": "Ceremony Starts"
+    },
+    {
+      "time": "5:45PM",
+      "event": "Guests Depart for Reception "
+    },
+    {
+      "time": "6:15PM",
+      "event": "Reception Begins "
+    },
+    {
+      "time": "6:45PM",
+      "event": "Dinner is Served "
+    },
+    {
+      "time": "9:00PM",
+      "event": "Bride and Groom Send Off"
+    }
+  ],
   "registries": [
     {
       "store": "Amazon",

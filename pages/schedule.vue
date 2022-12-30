@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">Schedule</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -23,42 +23,12 @@
                     </div>
                     <div class="col-span-12 md:col-span-6 text-left px-5">
                         <h2 class="text-5xl pb-5">Schedule</h2>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">5:00PM</h4>
-                            <p class="text-lg">Guests to Arrive</p>
-                        </div>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">5:30PM</h4>
-                            <p class="text-lg">Ceremony Starts</p>
-                        </div>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">5:45PM</h4>
-                            <p class="text-lg">Guests Depart for Reception</p>
-                            <p class="underline text-lg">
-                                <a href="#">Directions</a>
-                                <font-awesome-icon
-                                    icon="fa-solid fa-arrow-up-right-from-square"
-                                />
-                            </p>
-                        </div>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">6:15PM</h4>
-                            <p class="text-lg">Reception Begins</p>
-                        </div>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">6:45PM</h4>
-                            <p class="text-lg">Dinner is Served</p>
-                        </div>
-
-                        <div class="pb-5">
-                            <h4 class="font-bold text-2xl">8:30PM</h4>
-                            <p class="text-lg">Bride and Groom Send Off</p>
-                        </div>
+                        <ScheduleList
+                            v-for="schedule in schedules"
+                            :key="schedule.time"
+                            :time="schedule.time"
+                            :event="schedule.event"
+                        />
                     </div>
                 </div>
             </div>
@@ -67,8 +37,17 @@
 </template>
 
 <script>
+import ScheduleList from '~/components/ScheduleList'
+import { schedules, tagline } from '~/data/data.json'
 export default {
     name: 'EventSchedule',
+    components: { ScheduleList },
+    data() {
+        return {
+            schedules,
+            hashtag: tagline.hashtag,
+        }
+    },
 }
 </script>
 

@@ -68,7 +68,7 @@ export default {
 /* stylelint-disable color-function-notation */
 .couple-h1-background {
     background: linear-gradient(rgba(0, 0, 0, 40%), rgba(0, 0, 0, 40%)),
-        url('~static/images/couple/couple-head-bg.jpg');
+        url('~static/images/couple/couple-head.jpg');
     height: 60vh;
     background-position: center center;
     background-repeat: no-repeat;

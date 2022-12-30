@@ -40,8 +40,14 @@ https://www.w3schools.com/howto/howto_js_countdown.asp
 
 
 ## What to Update
-### All Page Titles
-### Swap all images 
-Keep image titles / names the same
+### Swap all images
+Keep image titles / names the same, just rewrite and they'll automatically replace in the theme.
+### JSON File
+Update 
+### Page Titles
+This is assuming the titles need changed
+### Map coordinates on Venue.vue
+### Special Instructions on Venue.vue
+
 ### The wedding date in data.json
 ### The countdown timer date in CountdownToDate.vue

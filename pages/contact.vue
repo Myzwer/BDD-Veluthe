@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">Contact Us</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -21,22 +21,24 @@
                     <div class="col-span-12 md:col-span-4 px-5 text-left">
                         <div class="pb-5">
                             <h4 class="font-bold text-2xl">Primary</h4>
-                            <p class="text-lg">us@ourweddingsite.com</p>
+                            <p class="text-lg">{{ primaryPhone }}</p>
+                            <p class="text-lg">{{ primaryLink }}</p>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-4 px-5 text-left">
                         <div class="pb-5">
-                            <h4 class="font-bold text-2xl">Josh</h4>
-                            <p class="text-lg">josh@weddingsite.com</p>
-                            <p class="text-lg">865-803-5453</p>
+                            <h4 class="font-bold text-2xl">{{ groom }}</h4>
+                            <p class="text-lg">{{ groomPhone }}</p>
+                            <p class="text-lg">{{ groomLink }}</p>
                         </div>
                     </div>
 
                     <div class="col-span-12 md:col-span-4 px-5 text-left">
                         <div class="pb-5">
-                            <h4 class="font-bold text-2xl">Katie</h4>
-                            <p class="text-lg">katie@weddingsite.com</p>
+                            <h4 class="font-bold text-2xl">{{ bride }}</h4>
+                            <p class="text-lg">{{ bridePhone }}</p>
+                            <p class="text-lg">{{ brideLink }}</p>
                         </div>
                     </div>
 
@@ -49,24 +51,12 @@
                     <div class="col-span-12 px-5 pb-3 text-left">
                         <h2 class="text-5xl">Frequently Asked Questions</h2>
                     </div>
-
-                    <div class="col-span-12 px-5 text-left">
-                        <div class="pb-3">
-                            <h4 class="font-bold text-xl">
-                                Is there a dress code for the wedding?
-                            </h4>
-                            <p class="text-md">Yes. Please wear clothes.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-span-12 px-5 text-left">
-                        <div class="pb-3">
-                            <h4 class="font-bold text-xl">
-                                Is there a dress code for the wedding?
-                            </h4>
-                            <p class="text-md">Yes. Please wear clothes.</p>
-                        </div>
-                    </div>
+                    <FrequentQuestions
+                        v-for="question in questions"
+                        :key="question.question"
+                        :question="question.question"
+                        :answer="question.answer"
+                    />
                 </div>
             </div>
         </div>
@@ -74,8 +64,34 @@
 </template>
 
 <script>
+import {
+    tagline,
+    contactPrimary,
+    contactBride,
+    contactGroom,
+    groom,
+    bride,
+    questions,
+} from '~/data/data.json'
+import FrequentQuestions from '~/components/FrequentQuestions'
+
 export default {
     name: 'ContactUs',
+    components: { FrequentQuestions },
+    data() {
+        return {
+            questions,
+            hashtag: tagline.hashtag,
+            primaryLink: contactPrimary.link,
+            primaryPhone: contactPrimary.phone,
+            groomPhone: contactGroom.phone,
+            groomLink: contactGroom.link,
+            bridePhone: contactBride.phone,
+            brideLink: contactBride.link,
+            groom: groom.firstName,
+            bride: bride.firstName,
+        }
+    },
 }
 </script>
 

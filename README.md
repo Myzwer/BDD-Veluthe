@@ -44,6 +44,8 @@ https://www.w3schools.com/howto/howto_js_countdown.asp
 Keep image titles / names the same, just rewrite and they'll automatically replace in the theme.
 ### JSON File
 Update 
+### Footer 
+Times only, everything else is automatic.
 ### Page Titles
 This is assuming the titles need changed
 ### Map coordinates on Venue.vue

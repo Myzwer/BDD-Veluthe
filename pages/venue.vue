@@ -5,7 +5,7 @@
                 <div class="content-middle text-white text-center">
                     <h1 class="text-7xl mb-2 px-2">The Venue</h1>
                     <h2 class="text-xl font-bold uppercase body-font">
-                        #forresterfairytale
+                        {{ hashtag }}
                     </h2>
                 </div>
             </div>
@@ -14,17 +14,20 @@
         <div class="bg-tertiary">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
-                    <div class="col-span-12 md:col-span-5 px-5 text-left">
-                        <h2 class="text-5xl">Address</h2>
+                    <div class="col-span-12 md:col-span-6 px-5 text-center">
+                        <h2 class="text-5xl">Ceremony Address</h2>
                         <h3 class="text-xl font-bold uppercase body-font">
-                            123 Wedding Ceremony Ln
+                            {{ ceremonyLine1 }}
                         </h3>
                         <h3 class="text-xl font-bold uppercase body-font">
-                            Weddingville, TN 12345
+                            {{ ceremonyLine2 }}
+                        </h3>
+                        <h3 class="text-xl font-bold uppercase body-font">
+                            {{ ceremonyLine3 }}
                         </h3>
                         <div class="py-5">
                             <a
-                                href="#"
+                                :href="ceremonyMap"
                                 target="_blank"
                                 class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
                             >
@@ -34,19 +37,34 @@
                                 />
                             </a>
                         </div>
+                    </div>
 
+                    <div class="col-span-12 md:col-span-6 px-5 text-center">
+                        <h2 class="text-5xl">Reception Address</h2>
+                        <h3 class="text-xl font-bold uppercase body-font">
+                            {{ receptionLine1 }}
+                        </h3>
+                        <h3 class="text-xl font-bold uppercase body-font">
+                            {{ receptionLine2 }}
+                        </h3>
+                        <h3 class="text-xl font-bold uppercase body-font">
+                            {{ receptionLine3 }}
+                        </h3>
                         <div class="py-5">
                             <a
-                                href="#"
+                                :href="receptionMap"
                                 target="_blank"
                                 class="bg-accent text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 mt-10 transition duration-300 ease-in-out hover:bg-accent-alt hover:shadow-xl"
                             >
-                                RSVP
+                                Launch in Maps
+                                <font-awesome-icon
+                                    icon="fa-solid fa-arrow-up-right-from-square"
+                                />
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-span-12 md:col-span-7 px-5 text-left">
+                    <div class="col-span-12 px-5 text-left">
                         <gmap-map
                             ref="mmm"
                             :center="center"
@@ -104,7 +122,12 @@
 
 <script>
 import HotelLocations from '~/components/HotelLocations'
-import { hotels } from '~/data/data.json'
+import {
+    hotels,
+    tagline,
+    ceremonyAddress,
+    receptionAddress,
+} from '~/data/data.json'
 
 // eslint-disable-next-line no-console
 export default {
@@ -113,6 +136,15 @@ export default {
     data() {
         return {
             hotels,
+            hashtag: tagline.hashtag,
+            ceremonyMap: ceremonyAddress.gmaps,
+            ceremonyLine1: ceremonyAddress.address1,
+            ceremonyLine2: ceremonyAddress.address2,
+            ceremonyLine3: ceremonyAddress.address3,
+            receptionMap: receptionAddress.gmaps,
+            receptionLine1: receptionAddress.address1,
+            receptionLine2: receptionAddress.address2,
+            receptionLine3: receptionAddress.address3,
             center: {
                 lat: 40.7484,
                 lng: -73.9857,
@@ -122,6 +154,12 @@ export default {
                     position: {
                         lat: 40.7484,
                         lng: -73.9857,
+                    },
+                },
+                {
+                    position: {
+                        lat: 40.8484,
+                        lng: -73.8857,
                     },
                 },
             ],

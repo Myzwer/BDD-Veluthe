@@ -113,6 +113,18 @@
       "twitter": "https://twitter.com/?lang=en"
     }
   ],
+  "ceremonyAddress": {
+    "gmaps": "https://www.google.com/maps",
+    "address1": "Main Room",
+    "address2": "123 Wedding Ceremony Ln",
+    "address3": "Weddingville, TN 12345"
+  },
+  "receptionAddress": {
+    "gmaps": "https://www.google.com/maps",
+    "address1": "Main Room",
+    "address2": "123 Wedding Ceremony Ln",
+    "address3": "Weddingville, TN 12345"
+  },
   "hotels": [
     {
       "name": "The Hilton Marriage Inn",

@@ -28,17 +28,15 @@
 
                             <li>
                                 <a
-                                    ref="navClose"
+                                    v-click-outside="party"
                                     href="#!"
-                                    @click="toggleActiveDropdown('party')"
-                                    >Bridal Party</a
+                                    @click="party"
                                 >
+                                    Bridal Party
+                                </a>
+
                                 <ul
-                                    v-show="activeDropdown === 'party'"
-                                    v-closable="{
-                                        exclude: ['navClose', 'navClose2'],
-                                        handler: 'toggleActiveDropdown',
-                                    }"
+                                    v-show="partyLink === true"
                                     class="nav-dropdown"
                                 >
                                     <li>
@@ -71,17 +69,13 @@
 
                             <li>
                                 <a
-                                    ref="navClose2"
+                                    v-click-outside="event"
                                     href="#!"
-                                    @click="toggleActiveDropdown('event')"
-                                    >Event</a
-                                >
+                                    @click="event"
+                                    >Event
+                                </a>
                                 <ul
-                                    v-show="activeDropdown === 'event'"
-                                    v-closable="{
-                                        exclude: ['navClose', 'navClose2'],
-                                        handler: 'toggleActiveDropdown',
-                                    }"
+                                    v-show="eventLink === true"
                                     class="nav-dropdown"
                                 >
                                     <li>
@@ -115,6 +109,7 @@
         </section>
         <Nuxt />
 
+        <!--Footer -->
         <div class="bg-primary text-white">
             <div class="mx-4 md:mx-10 lg:max-w-5xl lg:mx-auto py-10">
                 <div class="grid grid-cols-12 gap-4 md:gap-10">
@@ -261,12 +256,24 @@ export default {
             ceremonyTime: '6:30pm - 6:45pm',
             receptionTime: '7:00pm - 9:00pm',
             rsvpLink: RSVP.link,
+            partyLink: false,
+            eventLink: false,
         }
     },
     methods: {
-        toggleActiveDropdown(dropdown) {
-            this.activeDropdown =
-                this.activeDropdown === dropdown ? null : dropdown
+        party() {
+            this.partyLink = !this.partyLink
+            // eslint-disable-next-line no-console
+            console.log('partyLink is:')
+            // eslint-disable-next-line no-console
+            console.log(this.partyLink)
+        },
+        event() {
+            this.eventLink = !this.eventLink
+            // eslint-disable-next-line no-console
+            console.log('eventLink is:')
+            // eslint-disable-next-line no-console
+            console.log(this.eventLink)
         },
     },
 }

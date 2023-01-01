@@ -7,7 +7,7 @@
                         <!-- Toggle Hamburger between default and X on click (mobile only) -->
                         <a
                             id="nav-toggle"
-                            href="#!"
+                            href="#"
                             :class="{ active: toggleHamburger }"
                             @click="toggleHamburger = !toggleHamburger"
                         >
@@ -29,7 +29,7 @@
                             <li>
                                 <a
                                     v-click-outside="clickOutsideParty"
-                                    href="#!"
+                                    href="#"
                                     @click="party"
                                 >
                                     Bridal Party
@@ -70,7 +70,7 @@
                             <li>
                                 <a
                                     v-click-outside="clickOutsideEvent"
-                                    href="#!"
+                                    href="#"
                                     @click="event"
                                     >Event
                                 </a>
@@ -259,6 +259,13 @@ export default {
             partyLink: false,
             eventLink: false,
         }
+    },
+    watch: {
+        $route() {
+            this.toggleHamburger = null
+            this.activeDropdown = null
+            this.open = null
+        },
     },
     methods: {
         party() {

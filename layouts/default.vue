@@ -28,7 +28,7 @@
 
                             <li>
                                 <a
-                                    v-click-outside="party"
+                                    v-click-outside="clickOutsideParty"
                                     href="#!"
                                     @click="party"
                                 >
@@ -69,7 +69,7 @@
 
                             <li>
                                 <a
-                                    v-click-outside="event"
+                                    v-click-outside="clickOutsideEvent"
                                     href="#!"
                                     @click="event"
                                     >Event
@@ -263,17 +263,15 @@ export default {
     methods: {
         party() {
             this.partyLink = !this.partyLink
-            // eslint-disable-next-line no-console
-            console.log('partyLink is:')
-            // eslint-disable-next-line no-console
-            console.log(this.partyLink)
         },
         event() {
             this.eventLink = !this.eventLink
-            // eslint-disable-next-line no-console
-            console.log('eventLink is:')
-            // eslint-disable-next-line no-console
-            console.log(this.eventLink)
+        },
+        clickOutsideParty() {
+            this.partyLink = false
+        },
+        clickOutsideEvent() {
+            this.eventLink = false
         },
     },
 }

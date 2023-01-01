@@ -36,11 +36,7 @@ export default {
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [
-        '~/plugins/directives.js',
-        '~/plugins/fontawesome.js',
-        '~/plugins/vue2-google-maps.js',
-    ],
+    plugins: ['~/plugins/fontawesome.js', '~/plugins/vue2-google-maps.js'],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
     components: true,

@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="bg-tertiary py-10">
+        <div class="bg-secondary py-10">
             <div class="text-center mx-auto md:max-w-2xl">
                 <h2 class="body-font text-xl font-bold pb-1">Save The Date</h2>
                 <h1 class="body-font text-3xl uppercase">{{ weddingDate }}</h1>
@@ -23,14 +23,14 @@
                 <a
                     :href="rsvpLink"
                     target="_blank"
-                    class="bg-primary text-white uppercase rounded-md font-bold shadow-lg text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10"
+                    class="bg-accent text-white uppercase rounded-md font-bold shadow-lg px-20 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10"
                 >
                     RSVP!
                 </a>
             </div>
         </div>
 
-        <div class="bg-secondary-alt">
+        <div class="bg-primary-special">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
                     <div class="col-span-12 md:col-span-6 px-5">
@@ -56,7 +56,7 @@
                         <div class="text-center mb-10">
                             <NuxtLink
                                 to="/groom"
-                                class="text-white uppercase rounded-md font-bold border-white border-2 text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10"
+                                class="text-white uppercase rounded-md font-bold border-white border-2 px-8 py-3 transition duration-300 ease-in-out hover:bg-accent mt-10"
                             >
                                 Read More
                             </NuxtLink>
@@ -86,7 +86,7 @@
                         <div class="text-center mb-10">
                             <NuxtLink
                                 to="/bride"
-                                class="text-white uppercase rounded-md font-bold border-white border-2 text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-purple-hover mt-10"
+                                class="text-white uppercase rounded-md font-bold border-white border-2 px-8 py-3 transition duration-300 ease-in-out hover:bg-accent mt-10"
                             >
                                 Read More
                             </NuxtLink>

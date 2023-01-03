@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <div class="bg-tertiary">
+        <div class="bg-secondary">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
                     <div class="col-span-12 px-5 text-left">

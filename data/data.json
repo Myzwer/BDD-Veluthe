@@ -6,42 +6,42 @@
       "brideImage": "/images/index/bride-headshot.jpg"
     },
   "tagline": {
-    "hashtag": "#forresterfairytale"
+    "hashtag": "#farlandfairytale"
   },
   "RSVP": {
     "link": "https://rsvpify.com/"
   },
   "groom": {
-    "name": "Josh Thatcher",
-    "firstName": "Josh",
+    "name": "James Farland",
+    "firstName": "James",
     "groomHeadshot": "/images/groom/groom-headshot.jpg",
-    "bio1": "Josh is a web developer who created this website for his amazing clients! Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
-    "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "bio1": "James is a 23 year old currently living outside of Charlotte, NC with his fiance, Courtney. He attended the University of Tennessee where he studied business management and played on the school's soccer team. It was during his time at UT that he met Courtney, and the two have been inseparable ever since.",
+    "bio2": "In his free time, James enjoys staying active by playing and watching sports. He is an avid fan of both college and professional football, and can often be found on the weekends rooting for his favorite teams. At home, he is a proud pet owner of a dog and two cats, whom he adores and spoils with love and attention. As he approaches the next chapter of his life with Courtney, James is excited for all that the future holds and is grateful for the loving support of his family and friends.",
     "facebook": "https://facebook.com/",
     "instagram": "https://www.instagram.com/",
     "twitter": null
   },
   "bride": {
-    "name": "Kaitlyn Arcanis",
-    "firstName": "Kaitlyn",
+    "name": "Courtney Arcanis",
+    "firstName": "Courtney",
     "headshot": "/images/bride/bride-headshot.jpg",
-    "bio1": "Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
-    "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "bio1": "Courtney is a 24 year old living in the heart of Charlotte, NC. She attended the University of Tennessee where she studied marketing and met her fiance, James. After graduating, Courtney landed a job in marketing for a fashion company called The Closet Collective, where she is able to combine her love for fashion with her skills in marketing.",
+    "bio2": "In her free time, Courtney enjoys spending time at cozy coffee shops, shopping online for the latest trends, and playing board games with friends. She is a big fan of strategy games and loves the challenge of outsmarting her opponents. Courtney is also a social butterfly and enjoys meeting new people and trying new things. With her outgoing personality and strong work ethic, Courtney is well-liked by her colleagues and is constantly seeking new opportunities to grow and succeed in her career.",
     "facebook": "https://facebook.com/",
     "instagram": "https://www.instagram.com/",
     "twitter": "https://twitter.com/?lang=en"
   },
   "couple": {
     "couplePhoto": "/images/couple/couple-body.jpg",
-    "bio1": "Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
-    "bio2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis ac magna tristique imperdiet. Fusce ut magna a sapien semper ullamcorper dictum sit amet libero. Nam fermentum vestibulum ipsum, vitae maximus nisl efficitur eu. Sed tincidunt augue ut cursus pulvinar. Morbi semper porta eros eget hendrerit. Etiam ultricies ligula in aliquet accumsan. Aenean imperdiet lectus ante, vitae porta augue accumsan ac. Nam varius vestibulum turpis id condimentum. Proin scelerisque molestie purus, porta sagittis eros ullamcorper eget. Curabitur ut malesuada urna",
+    "bio1": "James and Courtney met in a class at the University of Tennessee and hit it off right away. They bonded over their love of board games and movies, and spent many nights staying up late playing games and laughing with friends. After they graduated, they decided to take a chance and move to Charlotte, NC to pursue job opportunities they had found in the area.",
+    "bio2": "Now, as they prepare to get married in November, James and Courtney are looking forward to starting their next chapter together. They still love spending their free time playing board games and watching movies, and have recently discovered a new passion for eating at food trucks. With their shared interests and strong bond, James and Courtney are excited to see what the future holds and are grateful for the love and support of their family and friends.",
     "bio3": null
   },
   "bridesmaids": [
     {
       "name": "Kelly Anderson",
       "title": "Maid of Honor",
-      "description": "Pug ramps hammock truffaut tousled biodiesel post-ironic jean shorts vibecession meh. Pinterest fashion axe pabst actually, hell of sriracha JOMO tilde humblebrag selfies cronut salvia jianbing deep v. YOLO everyday carry cred man bun. JOMO health goth everyday carry subway tile biodiesel hell of. Pug flexitarian kitsch letterpress wolf intelligentsia narwhal kickstarter synth pop-up tattooed. Knausgaard banh mi pickled poutine sus, chia fixie. Fingerstache DSA kogi vexillologist Brooklyn truffaut bicycle rights viral, same air plant neutra waistcoat.",
+      "description": "Meet Kelly, the 22 year old fashionista from Charlotte, NC. As a stylist at The Closet Collective, Kelly spends her days helping customers put together killer outfits and staying up-to-date with the latest trends. But her love for fashion doesn't stop when she clocks out – in her free time, Kelly can be found scouring the racks at her favorite boutiques or putting together eclectic looks for her next night out on the town. When she's not working or shopping, you can find Kelly sipping on lattes with her Courtney and friends at the trendiest coffee shops, or getting her game on at the local arcade. With her bubbly personality and endless supply of stylish outfits, Kelly is always the life of the party and never fails to put a smile on those around her.",
       "image": "/images/bridesmaids/b1.jpg",
       "facebook": "https://facebook.com/",
       "instagram": "https://www.instagram.com/?hl=en",
@@ -50,7 +50,7 @@
     {
       "name": "Pam Watson",
       "title": "Bridesmaid",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Meet Pam, the 25 year old preschool teacher from Asheville, NC. With her bubbly personality and endless supply of hugs, Pam has been making a positive impact on the lives of young children for years. A graduate of the University of Tennessee with a degree in early childhood education, Pam has a passion for helping kids learn and grow. It was there that she met Courtney, and though they live in separate cities, still talk almost every day. When Pam's not busy teaching the ABCs and 123s, she can be found exploring the outdoors with her dog, Charlie. An avid hiker and nature lover, she loves nothing more than hitting the trails and taking in the beauty of the Appalachian Mountains. And when the sun goes down, you can find Pam hanging out with friends, dancing to live music, or trying out the latest craft brew at a local brewery. With her warm heart and adventurous spirit, Pam is always up for a good time and never fails to bring joy to those around her.",
       "image": "/images/bridesmaids/b2.jpg",
       "facebook": "https://facebook.com/",
       "instagram": "https://www.instagram.com/?hl=en",
@@ -59,7 +59,7 @@
     {
       "name": "Liz Tucker",
       "title": "Bridesmaid",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Meet Liz, the 22 year old animal lover from Myrtle Beach. After growing up surrounded by the sandy beaches and sunny skies of the Carolina coast, Liz decided to pursue her passion for veterinary medicine and headed up to UNC. Now, with a degree in hand and a heart full of love for all things furry, Liz is working as an apprentice for a veterinary office in Charlotte, NC. When she's not tending to the needs of her animal patients, Liz can be found exploring the city's many green spaces with her dog, Sandy. She met Courtney at the dog park, and they hit it off instantly. An avid runner and hiker, she loves nothing more than hitting the trails and soaking up the beauty of nature. And when the day is done, Liz can often be found relaxing with a good book or catching up with friends over a cold brew. With her kind heart and love for all creatures great and small, Liz is sure to make a positive impact on the lives of many animals (and their humans) for years to come.",
       "image": "/images/bridesmaids/b3.jpg",
       "facebook": null,
       "instagram": "https://www.instagram.com/?hl=en",
@@ -68,7 +68,7 @@
     {
       "name": "Angela Brown",
       "title": "Bridesmaid",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Meet Angela, the 28 year old accountant from New York City. After growing up in the hustle and bustle of the Big Apple, Angela headed down south to attend the University of Tennessee, where she earned her degree in accounting. Now, she's back in the city and working as an accountant in Charlotte, NC. When she's not crunching numbers and analyzing spreadsheets, Angela can be found exploring all that the Queen City has to offer. From craft breweries and live music to art galleries and local farmers markets, Angela loves immersing herself in the city's vibrant culture. And when the weekend rolls around, she's all about hitting the trails or the beach and soaking up some sunshine. With her sharp mind and love for adventure, Angela is always on the go and never one to turn down a good time.",
       "image": "/images/bridesmaids/b4.jpg",
       "facebook": null,
       "instagram": null,
@@ -79,7 +79,7 @@
     {
       "name": "Lucas King",
       "title": "Best Man",
-      "description": "Pug ramps hammock truffaut tousled biodiesel post-ironic jean shorts vibecession meh. Pinterest fashion axe pabst actually, hell of sriracha JOMO tilde humblebrag selfies cronut salvia jianbing deep v. YOLO everyday carry cred man bun. JOMO health goth everyday carry subway tile biodiesel hell of. Pug flexitarian kitsch letterpress wolf intelligentsia narwhal kickstarter synth pop-up tattooed. Knausgaard banh mi pickled poutine sus, chia fixie. Fingerstache DSA kogi vexillologist Brooklyn truffaut bicycle rights viral, same air plant neutra waistcoat.",
+      "description": "Meet Lucas, the 26 year old professional piano player from Charlotte, NC. As the resident pianist at The Luxe, a high-end restaurant in the city, Lucas spends his evenings serenading diners with his smooth melodies and jazz standards. When he's not tickling the ivories, Lucas can be found indulging his love for all things nerdy – whether it's slaying dragons in a game of D&D or mastering the latest video game blockbuster. But don't let his nerdy hobbies fool you – Lucas is a true performer at heart, with a passion for music that runs deep. When he's not working or gaming, you can find Lucas practicing his craft, whether it's at home or out jamming with his musician friends. With his talent and love for all things musical, Lucas is sure to keep the beats flowing and the good times rolling for years to come. He knows James from a local game store, where the two became quick friends.",
       "image": "/images/groomsmen/g1.jpg",
       "facebook": null,
       "instagram": "https://www.instagram.com/?hl=en",
@@ -88,7 +88,7 @@
     {
       "name": "Christopher Thompson",
       "title": "Groomsmen",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Christopher Thompson is a 29 year old adventurer and lineman from Funkley, Wisconsin. Growing up in a small town nestled in the heart of the countryside, Christopher developed a love for all things outdoors at an early age. From camping and hiking in the lush forests surrounding Funkley, to geocaching and exploring the hidden corners of his hometown, Christopher has always been drawn to the great outdoors. Today, Christopher resides just outside of Charlotte, NC, where he works as a lineman, keeping the power on for the people of the city. In his free time, Christopher can be found hitting the trails, seeking out new campsites, and indulging his love for all things outdoors. Whether he is kayaking on the river, mountain biking through the woods, or simply enjoying a peaceful evening around the campfire, Christopher is always ready for his next adventure.",
       "image": "/images/groomsmen/g2.jpg",
       "facebook": "https://facebook.com/",
       "instagram": null,
@@ -97,7 +97,7 @@
     {
       "name": "Jensen Matthews",
       "title": "Groomsmen",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Jensen Matthews is a 29 year old software developer and Clemson University graduate hailing from Knoxville, TN. With a passion for all things creative and technical, Jensen has always been drawn to the world of code and design. After completing his studies at Clemson, Jensen moved to Charlotte, NC to pursue his career as a software developer. In his free time, Jensen can be found indulging his many hobbies, including playing Dungeons and Dragons with his friends, writing code for fun, 3D modeling, and trying out the latest and greatest craft beers. A true Renaissance man, Jensen is always up for a challenge, and is constantly seeking out new and exciting ways to flex his creative and technical muscles.",
       "image": "/images/groomsmen/g3.jpg",
       "facebook": "https://facebook.com/",
       "instagram": null,
@@ -106,7 +106,7 @@
     {
       "name": "Steven Clove",
       "title": "Groomsmen",
-      "description": "Fixie bushwick brunch kinfolk marfa tattooed. Snackwave jean shorts yes plz celiac pug dreamcatcher actually praxis pok pok migas affogato yr post-ironic sriracha taiyaki. Venmo umami sustainable, tote bag small batch la croix actually +1 green juice asymmetrical bruh. Blog tumeric Brooklyn succulents. Messenger bag disrupt yr whatever plaid neutra. Humblebrag paleo disrupt DIY, forage woke chicharrones listicle fit intelligentsia mixtape.",
+      "description": "Steven Clove is a talented chef hailing from Knoxville, TN. A graduate of the University of Tennessee's prestigious culinary arts program, Steven has always had a passion for food and cooking. After honing his skills in various restaurants around the city, Steven landed a job as a chef at Blackberry Farms, a luxury resort located just outside of Knoxville. In his free time, Steven can be found indulging his love of craft beer and tattoos. An avid collector of ink, Steven is always on the lookout for his next tattoo, and can often be found browsing local studios for inspiration. When he's not working or getting tattooed, Steven enjoys spending time with his wife Gabby, visiting breweries and trying out the latest and greatest craft beers on the market.",
       "image": "/images/groomsmen/g4.jpg",
       "facebook": "https://facebook.com/",
       "instagram": "https://www.instagram.com/?hl=en",
@@ -114,38 +114,38 @@
     }
   ],
   "ceremonyAddress": {
-    "gmaps": "https://www.google.com/maps",
-    "address1": "Main Room",
-    "address2": "123 Wedding Ceremony Ln",
-    "address3": "Weddingville, TN 12345"
+    "gmaps": "https://goo.gl/maps/ozfdepdbU2t9fYpc7",
+    "address1": "Hilton Charlotte University",
+    "address2": "8629 J M Keynes Dr,",
+    "address3": "Charlotte, NC 28262"
   },
   "receptionAddress": {
-    "gmaps": "https://www.google.com/maps",
-    "address1": "Main Room",
-    "address2": "123 Wedding Ceremony Ln",
-    "address3": "Weddingville, TN 12345"
+    "gmaps": "https://goo.gl/maps/ozfdepdbU2t9fYpc7",
+    "address1": "Hilton Charlotte University",
+    "address2": "8629 J M Keynes Dr,",
+    "address3": "Charlotte, NC 28262"
   },
   "hotels": [
     {
-      "name": "The Hilton Marriage Inn",
-      "addressLine1": "123 Wedding Lane",
-      "addressLine2": "Weddingville TN, 12345",
-      "distance": ".9 miles ",
-      "link": "https://www.instagram.com/?hl=en"
+      "name": "Hilton Charlotte University",
+      "addressLine1": "8629 J M Keynes Dr",
+      "addressLine2": "Charlotte, NC 28262",
+      "distance": "0 miles",
+      "link": "https://www.hilton.com/en/hotels/clthuhf-hilton-charlotte-university-place/"
     },
     {
-      "name": "Best Western Suites",
-      "addressLine1": "123 Best Lane",
-      "addressLine2": "Weddingville TN, 67748",
-      "distance": "3 miles ",
-      "link": "https://www.instagram.com/?hl=en"
+      "name": "UNC Charlotte Marriott Hotel",
+      "addressLine1": "9041 Robert D. Snyder Rd",
+      "addressLine2": "Charlotte, NC 28262",
+      "distance": ".6 miles",
+      "link": "https://www.marriott.com/en-us/hotels/cltmu-unc-charlotte-marriott-hotel-and-conference-center/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
     },
     {
-      "name": "Hotel California",
-      "addressLine1": "1976 Eagles Lane",
-      "addressLine2": "Las Angeles CA, 58049",
-      "distance": "7 miles",
-      "link": "https://www.instagram.com/?hl=en"
+      "name": "The Dunhill Hotel",
+      "addressLine1": "37 N Tryon St",
+      "addressLine2": "Charlotte, NC 28202",
+      "distance": "10.2 miles",
+      "link": "https://dunhillhotel.com/"
     }
   ],
   "schedules": [
@@ -159,15 +159,15 @@
     },
     {
       "time": "5:45PM",
-      "event": "Guests Depart for Reception "
+      "event": "Guests go to Reception Ballroom - Couple Takes Photos"
     },
     {
       "time": "6:15PM",
-      "event": "Reception Begins "
+      "event": "Reception Begins"
     },
     {
       "time": "6:45PM",
-      "event": "Dinner is Served "
+      "event": "Dinner is Served"
     },
     {
       "time": "9:00PM",
@@ -175,37 +175,61 @@
     }
   ],
   "contactPrimary": {
-    "link": "us@ourweddingwebsite.com",
+    "link": "us@farlandfairytale.com",
     "phone": "123-456-7890"
   },
   "contactGroom": {
-    "link": "groom@ourweddingwebsite.com",
-    "phone": ""
+    "link": "groom@farlandfairytale.com",
+    "phone": "123-456-7890"
   },
   "contactBride": {
-    "link": "bride@ourweddingwebsite.com",
-    "phone": "123-456-7890"
+    "link": "bride@farlandfairytale.com",
+    "phone": ""
   },
   "questions": [
     {
-      "question": "Question 1",
-      "answer": "Answer 1"
+      "question": "What should I wear? Is there a dress code?",
+      "answer": "There is no official dress code, we'll call it classy comfortable!"
     },
     {
-      "question": "Question 2",
-      "answer": "Answer 2"
+      "question": "Is this all happening inside?",
+      "answer": "Yes, the entire wedding will be taking place inside the indoor ballroom."
     },
     {
-      "question": "Question 3",
-      "answer": "Answer 3"
+      "question": "Does your wedding have a theme?",
+      "answer": "While there will be several \"retro\" elements to our wedding, there isn't a real theme."
     },
     {
-      "question": "Question 4",
-      "answer": "Answer 4"
+      "question": "What should I do if I can’t make it?",
+      "answer": "You will be missed! If you can not make it to the wedding, please let us know as soon as possible and RSVP “no,” so we can plan accordingly."
     },
     {
-      "question": "Question 5",
-      "answer": "Answer 5"
+      "question": "What time should I arrive?",
+      "answer": "We recommend that you arrive an hour before the start of the ceremony, to make sure everyone is on time and we can get the party started as scheduled!"
+    },
+    {
+      "question": "Are kids welcome?",
+      "answer": "Yes, but please be respectful if your child is upset to take them outside during the ceremony."
+    },
+    {
+      "question": "Can I bring a date?",
+      "answer": "We have a strict guest list to stay on budget.  Our wedding is strictly RSVP only. We will only able to accommodate those listed on your invitation."
+    },
+    {
+      "question": "When is the RSVP deadline?",
+      "answer": "Please RSVP before October 1st so we can plan accordingly."
+    },
+    {
+      "question": "Will food and drinks be served at the reception? What kind of food?",
+      "answer": "There will be a full meal and limited bar available at the wedding! The food is catered by the hotel, and you have the option of chicken or steak. More details in the RSVP."
+    },
+    {
+      "question": "May I take a centerpiece/candle/flowers home as a souvenir?",
+      "answer": "Yes! Please take home anything you find on your table, especially the candy!"
+    },
+    {
+      "question": "Can I take and post pictures of the wedding on social media?",
+      "answer": "Absolutely! Make sure to tag us @ #farlandfairytale."
     }
   ],
   "registries": [

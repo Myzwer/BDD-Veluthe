@@ -86,13 +86,18 @@
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
                     <div class="col-span-12 px-5 text-left">
                         <h2 class="text-5xl">Special Instructions</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Aperiam, aut consequatur deserunt dolore enim
-                            fuga illum laboriosam laborum laudantium non
-                            obcaecati quasi quisquam quod repellat repudiandae
-                            similique tempore temporibus unde!
-                        </p>
+                        <ul class="list-disc text-lg">
+                            <li>We are in the crimson ballroom all night!</li>
+                            <li>
+                                Park in Lot D when you arrive and take the door
+                                that's right there.
+                            </li>
+                            <li>Follow signs to the ballroom.</li>
+                            <li>
+                                You can validate your parking at the front desk
+                                before you leave.
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -129,7 +134,6 @@ import {
     receptionAddress,
 } from '~/data/data.json'
 
-// eslint-disable-next-line no-console
 export default {
     name: 'EventVenue',
     components: { HotelLocations },
@@ -145,22 +149,25 @@ export default {
             receptionLine1: receptionAddress.address1,
             receptionLine2: receptionAddress.address2,
             receptionLine3: receptionAddress.address3,
+
+            // latlong.net/convert-address-to-lat-long.html
             center: {
-                lat: 40.7484,
-                lng: -73.9857,
+                lat: 35.28883,
+                lng: -80.75076,
             },
             markers: [
                 {
                     position: {
-                        lat: 40.7484,
-                        lng: -73.9857,
+                        lat: 35.30883,
+                        lng: -80.75076,
                     },
                 },
                 {
-                    position: {
+                    /* SECOND MARKER FOR ALT RECEPTION:
+                     position: {
                         lat: 40.8484,
                         lng: -73.8857,
-                    },
+                    }, */
                 },
             ],
         }

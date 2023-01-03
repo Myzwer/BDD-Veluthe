@@ -50,6 +50,4 @@ Times only, everything else is automatic.
 This is assuming the titles need changed
 ### Map coordinates on Venue.vue
 ### Special Instructions on Venue.vue
-
-### The wedding date in data.json
 ### The countdown timer date in CountdownToDate.vue

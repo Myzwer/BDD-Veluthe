@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'veluthe',
+        title: "Josh + Katie's Wedding!",
         htmlAttrs: {
             lang: 'en',
         },

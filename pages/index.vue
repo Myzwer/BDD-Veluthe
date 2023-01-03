@@ -119,6 +119,18 @@ export default {
             brideName: bride.firstName,
         }
     },
+    head() {
+        return {
+            title: groom.firstName + ' + ' + bride.firstName + "'s Wedding",
+            meta: [
+                {
+                    name: 'description',
+                    content: 'This is a homepage!',
+                    hid: 'descrption',
+                },
+            ],
+        }
+    },
 }
 </script>
 

@@ -29,7 +29,7 @@
                             v-if="facebook != null"
                             class="col-span-12 lg:col-span-4"
                         >
-                            <div class="pb-5">
+                            <div class="pb-2 md:pb-5">
                                 <a :href="facebook" target="_blank">
                                     <div
                                         :class="`border-2 uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white
@@ -48,7 +48,7 @@
                             v-if="instagram != null"
                             class="col-span-12 lg:col-span-4"
                         >
-                            <div class="pb-5">
+                            <div class="pb-2 md:pb-5">
                                 <a :href="instagram" target="_blank">
                                     <div
                                         :class="`border-2 uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white
@@ -67,7 +67,7 @@
                             v-if="twitter != null"
                             class="col-span-12 lg:col-span-4"
                         >
-                            <div class="pb-5">
+                            <div class="pb-2 md:pb-5">
                                 <a :href="twitter" target="_blank">
                                     <div
                                         :class="`border-2 uppercase rounded-md font-bold shadow-lg px-8 py-3 ease-in-out duration-300 hover:bg-accent hover:text-white hover:border-white

@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="bg-primary-special">
+        <div class="bg-primary">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
                 <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
                     <div class="col-span-12 md:col-span-6 px-5">
@@ -95,12 +95,37 @@
                 </div>
             </div>
         </div>
+
+        <div class="bg-secondary">
+            <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
+                <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
+                    <div class="col-span-12 px-5">
+                        <div class="mb-10">
+                            <h2 class="pt-7 text-5xl text-black">
+                                Meet {{ groomName }} & {{ brideName }}
+                            </h2>
+                            <p class="text-black text-left">
+                                {{ coupleBio.substring(0, 200) + '...' }}
+                            </p>
+                        </div>
+                        <div class="text-center mb-10">
+                            <NuxtLink
+                                to="/groom"
+                                class="text-black uppercase rounded-md font-bold border-black border-2 px-8 py-3 transition duration-300 ease-in-out hover:bg-accent mt-10"
+                            >
+                                Read More
+                            </NuxtLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 import CountdownToDate from '~/components/CountdownToDate'
-import { index, RSVP, groom, bride, tagline } from '~/data/data.json'
+import { index, RSVP, groom, bride, tagline, couple } from '~/data/data.json'
 
 export default {
     name: 'IndexPage',
@@ -117,6 +142,7 @@ export default {
             brideImage: index.brideImage,
             brideBio: bride.bio1,
             brideName: bride.firstName,
+            coupleBio: couple.bio1,
         }
     },
     head() {

@@ -83,10 +83,10 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-12 gap-4 pt-10 pb-12">
+                <div class="grid grid-cols-12 gap-4 pt-5 md:pt-10 pb-12">
                     <div class="col-span-12 px-5 text-left">
                         <h2 class="text-5xl">Special Instructions</h2>
-                        <ul class="list-disc text-lg">
+                        <ul class="list-disc text-lg px-5">
                             <li>We are in the crimson ballroom all night!</li>
                             <li>
                                 Park in Lot D when you arrive and take the door
@@ -105,7 +105,9 @@
 
         <div class="bg-primary-alt">
             <div class="text-center mx-auto max-w-2xl md:max-w-5xl">
-                <div class="grid grid-cols-12 gap-4 pt-10 pb-12 text-white">
+                <div
+                    class="grid grid-cols-12 gap-4 pt-10 pb-12 text-white px-5"
+                >
                     <div class="col-span-12 text-left">
                         <h2 class="text-5xl">Lodging Options</h2>
                     </div>

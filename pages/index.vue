@@ -150,8 +150,15 @@ export default {
             title: groom.firstName + ' + ' + bride.firstName + "'s Wedding",
             meta: [
                 {
-                    name: 'description',
-                    content: 'This is a homepage!',
+                    name:
+                        groom.firstName +
+                        ' + ' +
+                        bride.firstName +
+                        "'s Wedding",
+                    content:
+                        "We can't wait for you to join us on" +
+                        index.date +
+                        "for our wedding! We are so excited and we'll see you there!",
                     hid: 'descrption',
                 },
             ],

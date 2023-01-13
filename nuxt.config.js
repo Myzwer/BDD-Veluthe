@@ -2,20 +2,30 @@ export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
     ssr: false,
 
+    generate: {
+        fallback: true,
+    },
+
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: "Josh + Katie's Wedding!",
-        htmlAttrs: {
-            lang: 'en',
-        },
+        title: 'Fairbank Fairytale | James + Courtney',
         meta: [
             { charset: 'utf-8' },
             {
                 name: 'viewport',
                 content: 'width=device-width, initial-scale=1',
             },
-            { hid: 'description', name: 'description', content: '' },
-            { name: 'format-detection', content: 'telephone=no' },
+            {
+                hid: 'James and Courtney are thrilled to invite you to celebrate their special day with them. RSVP now to join the love birds on their big day!',
+                name: 'James and Courtney are thrilled to invite you to celebrate their special day with them. RSVP now to join the love birds on their big day!',
+                content:
+                    'James and Courtney are thrilled to invite you to celebrate their special day with them. RSVP now to join the love birds on their big day!',
+            },
+            {
+                hid: 'og-image',
+                property: 'og:image',
+                content: '/images/index/index-head.jpg',
+            },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },

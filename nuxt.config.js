@@ -87,5 +87,10 @@ export default {
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         transpile: [/^vue2-google-maps($|\/)/],
+        postcss: {
+            plugins: {
+                'postcss-custom-properties': false,
+            },
+        },
     },
 }

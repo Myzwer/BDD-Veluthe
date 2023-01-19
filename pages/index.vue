@@ -110,7 +110,7 @@
                         </div>
                         <div class="text-center mb-10">
                             <NuxtLink
-                                to="/groom"
+                                to="/the-couple"
                                 class="text-black uppercase rounded-md font-bold border-black border-2 px-8 py-3 transition duration-300 ease-in-out hover:bg-accent mt-10"
                             >
                                 Read More

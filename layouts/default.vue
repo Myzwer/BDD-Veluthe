@@ -205,13 +205,13 @@
                                 <NuxtLink to="/">Home</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/event">Event</NuxtLink>
+                                <NuxtLink to="/venue">Venue</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
                                 <NuxtLink to="/contact">Contact</NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
-                                <NuxtLink to="/registery"> Registry </NuxtLink>
+                                <NuxtLink to="/registry"> Registry </NuxtLink>
                             </li>
                             <li class="md:inline px-5 uppercase">
                                 <a :href="rsvpLink"></a>RSVP

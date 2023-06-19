@@ -218,6 +218,15 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div class="col-span-12 text-center mx-auto mt-2">
+                        <h6 class="text-sm font-bold text-white">
+                            Powered by
+                            <a href="https://bigdaydesign.co/"
+                                >Big Day Design</a
+                            >
+                        </h6>
+                    </div>
                 </div>
             </div>
         </div>
